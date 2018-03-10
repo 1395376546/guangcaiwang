@@ -1,0 +1,198 @@
+.outsource-content {
+  background-image: url(../images/outsource/index/member-container-bg.jpg);
+  padding-bottom: 1.325rem;
+  background-size: 100% 100%;
+}
+.outsource-content.constellation-content {
+  background-image: url(../images/center/constellation-center-bg.png);
+}
+.outsource-content .outsource-index-top {
+  padding: 0 2rem;
+  margin: 1rem auto 0.5rem;
+}
+.outsource-content .outsource-index-top .outsource-index-top-image {
+  height: 3.875rem;
+  background-image: url("../images/outsource/index/member-top.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+.outsource-content .outsource-index-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0.75rem;
+}
+.outsource-content .outsource-index-logo > div {
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+  background-image: url("../images/outsource/index/member-top-icon.png");
+  background-size: cover;
+  margin-right: 0.75rem;
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: bolder;
+  color: #ee3137;
+}
+.outsource-content .outsource-index-logo > div:last-child {
+  margin-right: 0;
+}
+.outsource-content .outsource-index-description {
+  padding: 0 1.65rem;
+}
+.outsource-content .outsource-index-description .outsource-index-description-image {
+  height: 2.1rem;
+  background-image: url("../images/outsource/index/member-nav.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.575rem;
+}
+.outsource-content .outsource-index-description .outsource-index-description-image > div {
+  color: #ffffff;
+  font-size: 0.95rem;
+}
+.outsource-content .outsource-index-main {
+  padding: 0 3.375rem;
+}
+.outsource-content .outsource-index-main .outsource-index-main-bg {
+  height: 12rem;
+  background-image: url("../images/outsource/index/member-content.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% 100%;
+  position: relative;
+}
+.outsource-content .outsource-index-main .outsource-index-main-bg .outsource-index-main-content {
+  width: 9.7rem;
+  height: 9.7rem;
+  background-image: url("../images/outsource/index/member-content-icon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.outsource-content .outsource-index-main .outsource-index-main-bg .outsource-index-main-offset {
+  width: calc(102.125%);
+  height: calc(10.05rem);
+  background-image: url("../images/outsource/index/member-content-bg.png");
+  background-repeat: no-repeat;
+  background-size: calc(100.875%) calc(10.05rem);
+  position: absolute;
+  top: 2.125rem;
+  left: -0.375rem;
+}
+.outsource-content .outsource-index-button {
+  width: 7.5rem;
+  height: 2rem;
+  border: 3px solid #e8ac1b;
+  border-radius: 6px;
+  text-align: center;
+  margin: 1.75rem auto;
+}
+.outsource-content .outsource-index-button.constellation-center-button {
+  width: 15.375rem;
+  border: 3px solid #cccccc;
+}
+.outsource-content .outsource-index-button.constellation-center-button.selected {
+  border: 3px solid #e8ac1b;
+}
+.outsource-content .outsource-index-button.constellation-center-button.selected .outsource-index-button-text {
+  background-color: #e8ac1b;
+}
+.outsource-content .outsource-index-button.constellation-center-button .outsource-index-button-text {
+  width: 14.775rem;
+  background-color: #cccccc;
+}
+.outsource-content .outsource-index-button .outsource-index-button-text {
+  width: 6.9rem;
+  height: 1.4rem;
+  border-radius: 6px;
+  background-color: #e8ac1b;
+  margin: 0.3rem auto;
+  font-size: 0.85rem;
+  color: #ffffff;
+  font-weight: bolder;
+}
+.outsource-content .constellation-top {
+  padding: 0.675rem 0 0.7rem 0;
+  font-size: 1.05rem;
+  color: #ee3137;
+  text-align: center;
+}
+.outsource-content .constellation-top-input {
+  width: 15.375rem;
+  height: 2rem;
+  border: 2px solid #ee3137;
+  border-radius: 5px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+.outsource-content .constellation-top-input .constellation-user-input {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #333333;
+}
+.outsource-content .constellation-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 1.175rem;
+}
+.outsource-content .constellation-main > div.constellation-main-item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0.5rem 0 0 0;
+}
+.outsource-content .constellation-main > div.constellation-main-item .constellation-main-item-img {
+  width: 5rem;
+  height: 5rem;
+}
+.outsource-content .constellation-main > div.constellation-main-item .constellation-main-item-info {
+  margin: 0.5rem 0 0.25rem 0;
+  color: #ee3137;
+  font-size: 1.05rem;
+  font-weight: bolder;
+}
+.outsource-content .constellation-main > div.constellation-main-item .constellation-main-item-date {
+  font-size: 0.55rem;
+  color: #ee3137;
+  font-weight: bolder;
+}
